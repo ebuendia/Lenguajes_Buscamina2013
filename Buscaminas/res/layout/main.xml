@@ -1,0 +1,70 @@
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MineSweeperActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+</RelativeLayout> -->
+
+<!-- Linear Layout distribuirá los controles simplemente uno tras otro y en la orientación que
+indique la propiedad "android:orientation", que en este caso será vertical-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/FrameLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background" />
+	
+<LinearLayout 
+ 	
+	android:id="@+id/LinearLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:paddingRight="40dp"
+	android:paddingLeft="40dp"
+	android:layout_gravity="center_horizontal"
+	android:gravity="center_vertical">
+
+    <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_game"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnRanking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ranks"
+        android:textColor="@color/white" />
+ />
+	
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:textColor="@color/white" />		
+	<!-- Los atributos de dimensión que tengan por valor "wrap_content" indica que las 
+	dimensiones del control se ajustarán al contenido del mismo.-->
+	<!-- El valor match_parent indica que el ancho o el alto del control se ajustará 
+	al ancho o alto del alyout contenedor respectivamente.-->
+	<!-- El atributo "android:text" indica que texto va a aparecer en el control. -->
+</LinearLayout>
+</FrameLayout>

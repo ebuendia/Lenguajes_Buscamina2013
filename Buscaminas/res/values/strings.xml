@@ -4,5 +4,8 @@
     <string name="app_name">Buscaminas</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="new_game">Nuevo Juego</string>
+    <string name="ranks">Rankigs</string>
+    <string name="about">Acerca de...</string>
 
 </resources>
