@@ -1,7 +1,24 @@
 \documentclass[../documentacion_buscaminas2013.tex]{subfiles}
 \begin{document}
-\section{Alcance}
+\paragraph{ } ALCANCE
+
 \paragraph{ }
+El objetivo de nuestro proyecto es la creacion del conocido juego de buscaminas en la plataforma de android utilizando Eclipse IDE for Java Developers junto con el plugin de android. Google pone a disposición de los desarrolladores un plugin para Eclipse llamado Android Development Tools (ADT) que facilita en gran medida el desarrollo de aplicaciones para la plataforma. 
+
+\paragraph{ }
+Ademas a la hora de probar y depurar aplicaciones Android no tendremos que hacerlo necesariamente sobre un dispositivo físico, sino que podremos configurar un emulador o dispositivo virtual (Android Virtual Device, o AVD) donde poder realizar fácilmente estas tareas.
+
+\paragraph{ }
+Una vez que empecemos con el desarrollo de nuestro proyecto podremos ver somo el IDE de Eclipse genera automaticamente la estructura de carpetas de nuestra aplicacion independientemente de su tamaño y complejidad. 
+
+\paragraph{ }
+Entre las principales carpetas del directorio podemos nombrar la Carpeta SRC que va a contener todo el código fuente de la aplicación, código de la interfaz gráfica, clases auxiliares, etc. Inicialmente, Eclipse creará por nosotros el código básico de la pantalla (Activity) principal de la aplicación, siempre bajo la estructura del paquete java definido.  Otra carpeta importante es la RES que contiene todos los ficheros de recursos necesarios para el proyecto: imágenes, vídeos, cadenas de texto, etc.
+
+\paragraph{ }
+La carpeta GEN contiene una serie de elementos de código generados automáticamente al compilar el proyecto. Android genera por nosotros una serie de ficheros fuente en java dirigidos al control de los recursos de la aplicación. El más importante es  el fichero R.java, y la clase R. Esta clase R contendrá en todo momento una serie de constantes con los ID de todos los recursos de la aplicación incluidos en la carpeta /res/, de forma que podamos acceder fácilmente a estos recursos desde nuestro código a través de este dato. 
+
+\paragraph{ }
+Nuestro proyecto sera implementado utilizando el evento TOUCH y la aplicacion del API de Canvas. Se espera poder implementar el juego con tres niveles de dificultad, en cual antes de empezar una partida el usuario tiene la opcion de ingresar su nombre y una vez que el juego empieza, si el usuario gana la partida su tiempo lo guardaremos en una base de datos para manejo de ranking de la aplicacion.
 
 \clearpage
 \end{document}
