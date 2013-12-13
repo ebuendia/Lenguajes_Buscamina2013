@@ -23,9 +23,11 @@
             </intent-filter>
         </activity>
         <activity android:name="Main"></activity>
-        <activity android:name="About"></activity>
+        <activity android:name="About">
+        </activity>
         <activity android:name="NewGame"></activity>
         <activity android:name="Game"></activity>
+        <activity android:name="Ranking"></activity>
     </application>
 
 </manifest>
