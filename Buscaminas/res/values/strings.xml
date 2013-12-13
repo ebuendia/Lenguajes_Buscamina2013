@@ -7,5 +7,9 @@
     <string name="ranks">Rankigs</string>
     <string name="about">Acerca de...</string>
     <string name="aboutDesc">Desarrollo del juego Buscaminas como proyecto del primer parcial de la materia: Lenguajes de Programación\n\nCreadores:\n\tJose Luis Bueno\n\tErick Buendia</string>
-
+	<string name="name">Type your name:</string>
+	<string name="levelsPrompt">Choose a level:</string>
+	<string name="modo_facil">Fácil</string>
+	<string name="modo_intermedio">Intermedio</string>
+	<string name="modo_avanzadol">Avanzado</string>
 </resources>

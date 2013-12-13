@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp" >
+
+        <TextView
+            android:id="@+id/NameLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtJugador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/chooseALevelLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/levelsPrompt"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnFacil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modo_facil"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnIntermedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modo_intermedio"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnAvanzado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modo_avanzadol"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</FrameLayout>
