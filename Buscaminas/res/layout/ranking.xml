@@ -14,65 +14,13 @@
     </ImageView>
 
     <TableLayout
+        android:id="@+id/tabla"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-
-        <TableRow
-            android:id="@+id/tableRow1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-
-            <ImageView
-                android:id="@+id/imageView1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/trofeo" />
-
-            <TextView
-                android:id="@+id/texto"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="fill_horizontal"
-                android:text="Ivan Avila\nTiempo: 08:00\nFecha: 22/06/2013"
-                android:textColor="@color/white" />
-				
-        </TableRow>
 
         <Space
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
-        <TableRow
-            android:id="@+id/tableRow2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/trofeo" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Jorge Luis\nTiempo: 10:00\nFecha: 14/08/2013" 
-                android:textColor="@color/white"/>
-
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/tableRow3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/tableRow4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-        </TableRow>
     </TableLayout>
 
 </FrameLayout>
